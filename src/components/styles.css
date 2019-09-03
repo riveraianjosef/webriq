@@ -911,3 +911,9 @@ footer {
     padding-top: 100px;
   }
 }
+
+@media (max-width: 1080px) and (min-width: 1025px) {
+  .container-fluid.section-three {
+    height: 1700px !important;
+  }
+}
