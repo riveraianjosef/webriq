@@ -657,6 +657,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .why-go-mad-h2-1 {
+    padding-top: 0em !important;
+  }
 }
 
 @media (max-width: 768px) {
