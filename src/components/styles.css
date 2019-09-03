@@ -645,6 +645,13 @@ footer {
   font-size: 16px !important;
 }
 
+@media (min-width: 768) {
+  .section-one .row  {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
 @media (max-width: 768px) {
   .row.text-center.d-flex.testi-row-1 {
     display: flex;
