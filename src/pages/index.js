@@ -1,36 +1,36 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import SEO from '../components/seo'
-import MySwiper from '../components/Swiper'
-import SampleForm from '../components/Form'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import 'react-lazy-load-image-component/src/effects/blur.css'
+import React from "react";
+import { Link, graphql } from "gatsby";
+import Layout from "../components/Layout";
+import SEO from "../components/seo";
+import MySwiper from "../components/Swiper";
+import SampleForm from "../components/Form";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 // images
-import automation from '../img/automation.svg'
-import branding from '../img/branding.svg'
-import control from '../img/control.svg'
-import customerReviews from '../img/customer_reviews.svg'
-import design from '../img/design.svg'
-import dividerBlue from '../img/divider-blue.svg'
-import dividerOrange from '../img/divider-orange.svg'
-import dividerWhiteTop from '../img/divider-white-top.svg'
-import laneMitchell from '../img/lane-mitchelle.png'
-import onlineSale from '../img/online-sale.svg'
-import pair from '../img/pair.svg'
-import palette from '../img/palette.svg'
-import questions from '../img/questions.svg'
-import technology from '../img/technology.svg'
-import tickCircleBlk from '../img/tick-inside-circle-blk.svg'
-import tickCircle from '../img/tick-inside-circle.svg'
-import logo from '../img/webriq-logo.png'
-import zenith from '../img/zenith-chiro.png'
+import automation from "../img/automation.svg";
+import branding from "../img/branding.svg";
+import control from "../img/control.svg";
+import customerReviews from "../img/customer_reviews.svg";
+import design from "../img/design.svg";
+import dividerBlue from "../img/divider-blue.svg";
+import dividerOrange from "../img/divider-orange.svg";
+import dividerWhiteTop from "../img/divider-white-top.svg";
+import laneMitchell from "../img/lane-mitchelle.png";
+import onlineSale from "../img/online-sale.svg";
+import pair from "../img/pair.svg";
+import palette from "../img/palette.svg";
+import questions from "../img/questions.svg";
+import technology from "../img/technology.svg";
+import tickCircleBlk from "../img/tick-inside-circle-blk.svg";
+import tickCircle from "../img/tick-inside-circle.svg";
+import logo from "../img/webriq-logo.png";
+import zenith from "../img/zenith-chiro.png";
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const siteDescription = this.props.data.site.siteMetadata.description
+    const siteTitle = this.props.data.site.siteMetadata.title;
+    const siteDescription = this.props.data.site.siteMetadata.description;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -62,17 +62,21 @@ class IndexPage extends React.Component {
         </a>
 
         <div class="container-fluid section-one">
-          <div class="row">
+          <div class="row sec-one-inner-div">
             <div class="col-md-6">
-              <h1 class="text-uppercase section-one-h1-1">
-                <strong>Don’t Get Mad</strong>
-                <br />
-                <strong>GO MAD With</strong>
-              </h1>
-              <h1 class="section-one-h1-2">
-                <strong>WEBRIQ GOES MAD</strong>
-              </h1>
+              <div class="brandstamp">
+                <h1 class="text-uppercase section-one-h1-1">
+                  <strong>Don’t Get Mad</strong>
+                  <br />
+                  <strong>GO MAD With</strong>
+                </h1>
+
+                <h1 class="section-one-h1-2">
+                  <strong>WEBRIQ GOES MAD</strong>
+                </h1>
+              </div>
             </div>
+
             <div class="col-md-6">
               <img src={pair} class="img-fluid atf-img" alt="Pair" />
             </div>
@@ -125,19 +129,19 @@ class IndexPage extends React.Component {
               <h2 class="why-go-mad-h2-2">WHY GO MAD?</h2>
               <ul class="why-go-mad-list">
                 <li>
-                  <img src={tickCircle} />
+                  <img src={tickCircleBlk} />
                   &nbsp;Flat Monthly Fee, No Hidden Fees
                 </li>
                 <li>
-                  <img src={tickCircle} />
+                  <img src={tickCircleBlk} />
                   &nbsp;100% Custom Website
                 </li>
                 <li>
-                  <img src={tickCircle} />
+                  <img src={tickCircleBlk} />
                   &nbsp;Unlimited support: Changes Design, Updates included
                 </li>
                 <li>
-                  <img src={tickCircle} />
+                  <img src={tickCircleBlk} />
                   &nbsp;Full Control of the Website, We put you in the driver’s
                   seat
                 </li>
@@ -328,11 +332,11 @@ class IndexPage extends React.Component {
           </div>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default IndexPage
+export default IndexPage;
 
 export const indexPageQuery = graphql`
   query indexPageQuery {
@@ -344,4 +348,4 @@ export const indexPageQuery = graphql`
       }
     }
   }
-`
+`;
