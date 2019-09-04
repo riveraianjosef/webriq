@@ -271,7 +271,7 @@ class IndexPage extends React.Component {
               <h3 class="text-center">UNLIMITED UPDATES</h3>
               <h3>STARTING AT $125 A MONTH!</h3>
               <a
-                class="btn btn-primary"
+                class="btn btn-primary sec-4-cta"
                 role="button"
                 href="https://calendly.com/alex-belding/go-mad"
                 target="_blank"

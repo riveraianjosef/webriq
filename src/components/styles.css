@@ -58,7 +58,7 @@ h1.text-uppercase.section-one-h1-1 {
 .section-one-h1-2 {
   font-size: 67.34px;
   font-family: Montserrat, sans-serif;
-  color: rgb(245, 92, 17);
+  color: rgb(255, 255, 255);
 }
 
 .navbar-brand {
@@ -534,7 +534,7 @@ p {
 
 @media (max-width: 1920px) and (min-width: 1367px) {
   .container-fluid.section-three {
-    height: 2300px !important;
+    height: 2200px !important;
   }
 }
 
@@ -586,6 +586,26 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+}
+
+.cta:hover {
+  background-color: #fff;
+  color: #054fe6 !important;
+}
+
+.update-text h3 {
+  text-shadow: 1px 2px 0px rgba(255, 255, 255, 0.212);
+}
+
+.sec-4-cta {
+  background-color: #f55c11 !important;
+  border-color: #f55c11;
+  font-size: 12px;
+}
+
+.sec-4-cta:hover {
+  background-color: #ffffff !important;
+  color: #f55c11;
 }
 
 .update-text {
