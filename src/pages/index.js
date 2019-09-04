@@ -267,16 +267,18 @@ class IndexPage extends React.Component {
 
         <div class="container-fluid section-four">
           <div class="text-center div-section-4">
-            <h2 class="text-center">UNLIMITED UPDATES</h2>
-            <h3>STARTING AT $125 A MONTH!</h3>
-            <a
-              class="btn btn-primary"
-              role="button"
-              href="https://calendly.com/alex-belding/go-mad"
-              target="_blank"
-            >
-              SCHEDULE A CONSULT
-            </a>
+            <div class="update-text">
+              <h3 class="text-center">UNLIMITED UPDATES</h3>
+              <h3>STARTING AT $125 A MONTH!</h3>
+              <a
+                class="btn btn-primary"
+                role="button"
+                href="https://calendly.com/alex-belding/go-mad"
+                target="_blank"
+              >
+                SCHEDULE A CONSULT
+              </a>
+            </div>
           </div>
         </div>
 

@@ -204,6 +204,8 @@ h1 {
 
 .wdaas-row h4 {
   color: #fff;
+  font-size: 600;
+  letter-spacing: 1px;
 }
 
 .wdaas-col {
@@ -279,7 +281,7 @@ h1 {
 .div-section-4 h3 {
   font-size: 37.9px;
   font-family: Montserrat, sans-serif;
-  color: rgb(242, 91, 17);
+  color: #f58c11;
 }
 
 .btn-primary {
@@ -532,7 +534,7 @@ p {
 
 @media (max-width: 1920px) and (min-width: 1367px) {
   .container-fluid.section-three {
-    height: 2200px !important;
+    height: 2300px !important;
   }
 }
 
@@ -571,6 +573,24 @@ p {
   width: 100%;
   padding-left: 0px;
   font-family: "Open Sans", sans-serif;
+}
+
+.text-center.div-section-4 {
+  padding-top: 100px;
+  padding-bottom: 90px;
+  transform: skewY(-13.8deg) !important;
+}
+
+@media (max-width: 414px) and (min-width: 320px) {
+  .text-center.div-section-4 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.update-text {
+  padding-top: 10px;
+  transform: skewY(15deg);
 }
 
 @media (max-width: 320px) {
@@ -668,12 +688,6 @@ p {
   }
 }
 
-@media (max-width: 414px) and (min-width: 321px) {
-  h2 {
-    font-size: 2em !important;
-  }
-}
-
 @media (max-width: 320px) {
   h2 {
     font-size: 10px !important;
@@ -705,7 +719,14 @@ p {
 
 @media (max-width: 768px) {
   h2 {
-    font-size: 2.5em !important;
+    font-size: 2em !important;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 25px !important;
+    font-size: 600;
+    letter-spacing: 1px;
   }
 }
 
