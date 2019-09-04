@@ -52,14 +52,6 @@ class IndexPage extends React.Component {
             <div class="collapse navbar-collapse" id="navcol-1"></div>
           </div>
         </nav>
-        <a
-          class="btn btn-primary cta"
-          role="button"
-          href="https://calendly.com/alex-belding/go-mad"
-          target="_blank"
-        >
-          SCHEDULE A CONSULT
-        </a>
 
         <div class="container-fluid section-one">
           <div class="row sec-one-inner-div">
@@ -74,6 +66,14 @@ class IndexPage extends React.Component {
                 <h1 class="section-one-h1-2">
                   <strong>WEBRIQ GOES MAD</strong>
                 </h1>
+                <a
+                  class="btn btn-primary cta"
+                  role="button"
+                  href="https://calendly.com/alex-belding/go-mad"
+                  target="_blank"
+                >
+                  SCHEDULE A CONSULT
+                </a>
               </div>
             </div>
 
