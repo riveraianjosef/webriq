@@ -19,11 +19,19 @@ a {
   font-family: "Open Sans", sans-serif;
 }
 
+p {
+  color: #031121;
+}
+
 .section-one {
   padding: 0px;
-  background-color: #054fe6;
+  background: url(../img/atf-bg.svg);
+  background-color: #2c3bc8;
+  background-size: cover;
   padding-top: 200px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  animation: bgposition 20s ease-in infinite;
 }
 
 .section-one row {
@@ -35,9 +43,10 @@ a {
 .section-one h1 {
   font-size: 67.34px;
   font-family: Montserrat, sans-serif;
+  text-shadow: 1px 3px 0px rgba(255, 95, 17, 0.4);
 }
 
-h1.text-uppercase.section-one-h1-1 {
+h1.section-one-h1-1 {
   color: #fff;
 }
 
@@ -111,6 +120,7 @@ h1.text-uppercase.section-one-h1-1 {
 .section-two h5 {
   font-family: Montserrat, sans-serif;
   font-size: 21.33px;
+  font-weight: 400;
 }
 
 .section-two p {
@@ -169,6 +179,7 @@ h2 {
 
 h1 {
   font-weight: 100;
+  text-transform: capitalize !important;
 }
 
 .why-go-mad-list {
@@ -181,13 +192,14 @@ h1 {
 }
 
 .why-go-mad-list img {
-  width: 16px;
+  width: 30px;
   margin-left: -20px;
+  margin-top: -5px;
 }
 
 .our-mad-wdaas {
   padding-top: 100px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   font-family: Montserrat, sans-serif;
   font-size: 50.52px;
   font-weight: 200;
@@ -206,6 +218,7 @@ h1 {
   color: #fff;
   font-size: 600;
   letter-spacing: 1px;
+  text-transform: capitalize;
 }
 
 .wdaas-col {
@@ -261,12 +274,14 @@ h1 {
 }
 
 .section-four {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  /* padding-top: 50px; */
+  padding-bottom: 80px;
 }
 
 .div-section-4 {
-  background-color: #054fe6;
+  background: url(../img/cta-background.svg);
+  background-size: cover;
+  background-position: center center;
   width: auto;
   margin: 0px auto;
   padding-top: 30px;
@@ -281,7 +296,7 @@ h1 {
 .div-section-4 h3 {
   font-size: 37.9px;
   font-family: Montserrat, sans-serif;
-  color: #f58c11;
+  color: #ffffff;
 }
 
 .btn-primary {
@@ -357,7 +372,7 @@ p {
 
 .why-go-mad-list {
   line-height: 2.5em;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .wdaas-col-2 {
@@ -404,7 +419,14 @@ p {
 } */
 
 .text-center.div-section-4 {
-  border-radius: 20px;
+  border-radius: 50px;
+}
+
+.btn {
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: none;
+  padding: 10px 30px 10px 30px;
 }
 
 .text-center.div-section-4 {
@@ -468,7 +490,7 @@ p {
 .section-five h2 {
   font-size: 50.52px;
   font-family: Montserrat, sans-serif;
-  padding-bottom: 90px;
+  padding-bottom: 40px;
   padding-top: 90px;
   color: #000;
 }
@@ -484,6 +506,15 @@ p {
   padding: 0px;
   padding-bottom: 0px;
   padding-right: 50px;
+  position: relative;
+}
+
+.lane-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 0 auto;
+  transform: translateX(-50%, -50%);
 }
 
 .testi-row-1 img {
@@ -556,7 +587,7 @@ p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 320px) {
   .row.wdaas-row {
     display: flex;
     flex-direction: column;
@@ -589,8 +620,9 @@ p {
 }
 
 .cta:hover {
-  background-color: #fff;
-  color: #054fe6 !important;
+  background-color: #021f5a;
+  color: #fff !important;
+  border-color: #021f5a;
 }
 
 .update-text h3 {
@@ -598,14 +630,14 @@ p {
 }
 
 .sec-4-cta {
-  background-color: #f55c11 !important;
-  border-color: #f55c11;
-  font-size: 12px;
+  background-color: transparent !important;
+  border-color: #ffffff;
 }
 
 .sec-4-cta:hover {
   background-color: #ffffff !important;
-  color: #f55c11;
+  color: #054fe6;
+  border-color: #fff;
 }
 
 .update-text {
@@ -759,8 +791,9 @@ p {
 
 @media (max-width: 414px) {
   .container-fluid.section-one {
+    height: 800px;
     padding-top: 150px !important;
-    padding-bottom: 100px !important;
+    padding-bottom: 50px !important;
   }
 }
 
@@ -1022,5 +1055,18 @@ footer {
 @media (max-width: 1080px) and (min-width: 1025px) {
   .container-fluid.section-three {
     height: 1700px !important;
+  }
+}
+
+@keyframes bgposition {
+  0% {
+    background-position-y: 0;
+  }
+
+  50% {
+    background-position-y: -50px;
+  }
+  100% {
+    background-position-y: 0px;
   }
 }

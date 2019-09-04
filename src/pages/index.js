@@ -26,6 +26,8 @@ import tickCircleBlk from "../img/tick-inside-circle-blk.svg";
 import tickCircle from "../img/tick-inside-circle.svg";
 import logo from "../img/webriq-logo.png";
 import zenith from "../img/zenith-chiro.png";
+import atfBg from "../img/atf-bg.svg";
+import blueCheck from "../img/checked-blue.png";
 
 class IndexPage extends React.Component {
   render() {
@@ -57,14 +59,14 @@ class IndexPage extends React.Component {
           <div class="row sec-one-inner-div">
             <div class="col-md-6">
               <div class="brandstamp">
-                <h1 class="text-uppercase section-one-h1-1">
+                <h1 class="section-one-h1-1">
                   <strong>Don’t Get Mad</strong>
                   <br />
-                  <strong>GO MAD With</strong>
+                  <strong>Go Mad With</strong>
                 </h1>
 
                 <h1 class="section-one-h1-2">
-                  <strong>WEBRIQ GOES MAD</strong>
+                  <strong>WebriQ Goes Mad</strong>
                 </h1>
                 <a
                   class="btn btn-primary cta"
@@ -126,22 +128,22 @@ class IndexPage extends React.Component {
             </div>
             <div class="col-md-6 mx-auto why-go-mad-col-2">
               <h2 class="why-go-mad-h2-1">GO MAD</h2>
-              <h2 class="why-go-mad-h2-2">WHY GO MAD?</h2>
+              <h2 class="why-go-mad-h2-2">Why Go Mad?</h2>
               <ul class="why-go-mad-list">
                 <li>
-                  <img src={tickCircleBlk} />
+                  <img src={blueCheck} />
                   &nbsp;Flat Monthly Fee, No Hidden Fees
                 </li>
                 <li>
-                  <img src={tickCircleBlk} />
+                  <img src={blueCheck} />
                   &nbsp;100% Custom Website
                 </li>
                 <li>
-                  <img src={tickCircleBlk} />
+                  <img src={blueCheck} />
                   &nbsp;Unlimited support: Changes Design, Updates included
                 </li>
                 <li>
-                  <img src={tickCircleBlk} />
+                  <img src={blueCheck} />
                   &nbsp;Full Control of the Website, We put you in the driver’s
                   seat
                 </li>
@@ -149,7 +151,7 @@ class IndexPage extends React.Component {
             </div>
           </div>
           <h2 class="text-center our-mad-wdaas">
-            <strong>OUR MAD WDaaS</strong>
+            <strong>Our Mad WDaaS</strong>
           </h2>
           <div class="row wdaas-row">
             <div class="col">
@@ -268,8 +270,8 @@ class IndexPage extends React.Component {
         <div class="container-fluid section-four">
           <div class="text-center div-section-4">
             <div class="update-text">
-              <h3 class="text-center">UNLIMITED UPDATES</h3>
-              <h3>STARTING AT $125 A MONTH!</h3>
+              <h3 class="text-center">Unlimited Updates</h3>
+              <h3>Starting At $125 A Month!</h3>
               <a
                 class="btn btn-primary sec-4-cta"
                 role="button"
@@ -291,10 +293,18 @@ class IndexPage extends React.Component {
           </div>
           <img src={dividerWhiteTop} class="divi-white-top-2" />
           <div></div>
-          <h2 class="text-center">TESTIMONIALS</h2>
+          <h2 class="text-center">Testimonials</h2>
           <div class="row text-center d-flex testi-row-1">
             <div class="col sec-5-col-1">
               <img class="img-fluid lane-mitch-img" src={laneMitchell} />
+              <a
+                class="btn btn-primary sec-4-cta lane-btn"
+                role="button"
+                href="https://lanemitchelljewelers.com"
+                target="_blank"
+              >
+                VISIT SITE
+              </a>
             </div>
             <div class="col sec-5-col-2 ">
               <h5 class="text-right">Lane Mitchell Jewelers</h5>
