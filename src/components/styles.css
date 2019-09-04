@@ -172,7 +172,6 @@ h1 {
 }
 
 .why-go-mad-list {
-  padding-left: 10px;
   margin-left: 20px;
   color: #000;
 }
@@ -188,8 +187,7 @@ h1 {
 
 .our-mad-wdaas {
   padding-top: 100px;
-  padding-bottom: 50px;
-
+  padding-bottom: 70px;
   font-family: Montserrat, sans-serif;
   font-size: 50.52px;
   font-weight: 200;
@@ -357,7 +355,7 @@ p {
 
 .why-go-mad-list {
   line-height: 2.5em;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 .wdaas-col-2 {
