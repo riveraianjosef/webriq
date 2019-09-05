@@ -286,13 +286,53 @@ class IndexPage extends React.Component {
 
         <div class="container-fluid border rounded-0 section-five">
           <div class="row testi-top-row">
-            <div class="col"></div>
+            {/* <div class="col"></div>
             <div class="col sec-5-col-2">
               <img class="img-fluid sec-5-img" src={customerReviews} />
+            </div> */}
+
+            <div class="col-lg-6 lane-img"></div>
+            <div class="col-lg-6 testi-content">
+              <h5 class="text-right">Lane Mitchell Jewelers</h5>
+              <blockquote class="blockquote">
+                <p class="text-justify mb-0">
+                  “WebriQ Goes Mad is a really fantastic company that does all
+                  the technical stuff of building and maintaining a web site yet
+                  empowers the customer to be in full control. Their web design
+                  as a service model was a huge part in us deciding to go with
+                  this web company and we are so glad we did! Highly recommend!”
+                </p>
+                <footer class="blockquote-footer text-right">
+                  L’Aura Williams
+                </footer>
+              </blockquote>
             </div>
           </div>
-          <img src={dividerWhiteTop} class="divi-white-top-2" />
-          <div></div>
+          <div class="row testi-bottom-row flex-column-reverse flex-lg-row">
+            {/* <div class="col"></div>
+            <div class="col sec-5-col-2">
+              <img class="img-fluid sec-5-img" src={customerReviews} />
+            </div> */}
+
+            <div class="col-lg-6 testi-content">
+              <h5 class="text-left">Zenith Chiropractic</h5>
+              <blockquote class="blockquote">
+                <p class="text-justify mb-0">
+                  “The team at Webriq Goes Mad exceeded my expectations. The
+                  turnaround on getting my new website up and running was fast,
+                  easy, and I am looking forward to improved performance for my
+                  business online. One of the things that I really appreciated
+                  was their quick response time and easy communication.”
+                </p>
+                <footer class="blockquote-footer text-left">
+                  Dr John Stenberg
+                </footer>
+              </blockquote>
+            </div>
+            <div class="col-lg-6 zenith-img"></div>
+          </div>
+          {/* <img src={dividerWhiteTop} class="divi-white-top-2" /> */}
+          {/* <div></div>
           <h2 class="text-center">Testimonials</h2>
           <div class="row text-center d-flex testi-row-1">
             <div class="col sec-5-col-1">
@@ -341,7 +381,7 @@ class IndexPage extends React.Component {
             <div class="col sec-5-col-2">
               <img class="img-fluid zenith-img" src={zenith} />
             </div>
-          </div>
+          </div> */}
         </div>
       </Layout>
     );
