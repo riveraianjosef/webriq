@@ -1032,11 +1032,13 @@ footer {
   height: 400px;
 }
 
-.testi-content {
+.testi-content-1,
+.testi-content-2 {
   padding: 0px 60px 0px 60px;
 }
 
-.testi-content h5 {
+.testi-content-1 h5,
+.testi-content-2 h5 {
   font-family: Montserrat, sans-serif;
   padding-bottom: 10px;
 }

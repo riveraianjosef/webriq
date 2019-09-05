@@ -304,7 +304,7 @@ class IndexPage extends React.Component {
               </a>
             </div>
 
-            <div class="col-lg-4 testi-content">
+            <div class="col-lg-4 testi-content-1">
               <h5 class="text-right">Lane Mitchell Jewelers</h5>
 
               <blockquote class="blockquote">
@@ -327,7 +327,7 @@ class IndexPage extends React.Component {
               <img class="img-fluid sec-5-img" src={customerReviews} />
             </div> */}
 
-            <div class="col-lg-4 testi-content">
+            <div class="col-lg-4 testi-content-2">
               <h5 class="text-left">Zenith Chiropractic</h5>
               <blockquote class="blockquote">
                 <p class="text-justify mb-0">
