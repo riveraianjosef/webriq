@@ -284,16 +284,29 @@ class IndexPage extends React.Component {
           </div>
         </div>
 
-        <div class="container-fluid border rounded-0 section-five">
+        <div class="container-fluid section-five">
+          {/* <h2 class="text-center">Testimonials</h2> */}
           <div class="row testi-top-row">
             {/* <div class="col"></div>
             <div class="col sec-5-col-2">
               <img class="img-fluid sec-5-img" src={customerReviews} />
             </div> */}
+            <div class="col-lg-6 text-center lane-main">
+              <div class="lane-img"></div>
 
-            <div class="col-lg-6 lane-img"></div>
+              <a
+                class="btn btn-primary lane-cta"
+                role="button"
+                href="https://lanemitchelljewelers.com"
+                target="_blank"
+              >
+                VISIT SITE
+              </a>
+            </div>
+
             <div class="col-lg-6 testi-content">
               <h5 class="text-right">Lane Mitchell Jewelers</h5>
+
               <blockquote class="blockquote">
                 <p class="text-justify mb-0">
                   “WebriQ Goes Mad is a really fantastic company that does all
@@ -329,7 +342,18 @@ class IndexPage extends React.Component {
                 </footer>
               </blockquote>
             </div>
-            <div class="col-lg-6 zenith-img"></div>
+            <div class="col-lg-6 text-center zenith-main">
+              <div class="zenith-img"></div>
+
+              <a
+                class="btn btn-primary zenith-cta"
+                role="button"
+                href="https://calendly.com/alex-belding/go-mad"
+                target="_blank"
+              >
+                VISIT SITE
+              </a>
+            </div>
           </div>
           {/* <img src={dividerWhiteTop} class="divi-white-top-2" /> */}
           {/* <div></div>
@@ -382,6 +406,19 @@ class IndexPage extends React.Component {
               <img class="img-fluid zenith-img" src={zenith} />
             </div>
           </div> */}
+        </div>
+
+        <div class="container footer">
+          <div class="copyrights">
+            <div class="container">
+              <p class="my-4">
+                All rights reserved! WebriQ Pte Ltd{" "}
+                <a href="/terms">Terms of Use</a> |{" "}
+                <a href="/privacy">Provicy Policy</a> |{" "}
+                <a href="/gdpr">About GDPR</a> | <a href="/cookies">Cookies</a>
+              </p>
+            </div>
+          </div>
         </div>
       </Layout>
     );
