@@ -866,11 +866,7 @@ footer {
 
 @media (max-width: 320px) {
   .container-fluid.section-five {
-    height: 1800px !important;
-  }
-
-  .container-fluid.section-five {
-    height: 2000px !important;
+    height: auto !important;
   }
 }
 
@@ -1022,6 +1018,13 @@ footer {
   z-index: 1;
 }
 
+.zenith-main {
+  padding: 0;
+}
+.lane-main {
+  padding: 0;
+}
+
 .zenith-img {
   background: url(../img/zenith-chiro.png);
   background-size: cover;
@@ -1030,7 +1033,7 @@ footer {
 }
 
 .testi-content {
-  padding: 35px 60px 35px 60px;
+  padding: 0px 60px 0px 60px;
 }
 
 .testi-content h5 {
@@ -1116,14 +1119,26 @@ footer {
     /* padding-top: 50px; */
     padding-bottom: 100px;
   }
+  .testi-content {
+    padding: 30px;
+  }
 }
 
 @media (max-width: 1024px) and (min-width: 415px) {
   .lane-img {
-    height: 350px !important;
+    height: 450px !important;
   }
   .zenith-img {
-    height: 350px !important;
+    height: 450px !important;
     background-position: left center;
+  }
+
+  .testi-content {
+    padding: 30px;
+  }
+
+  .zenith-main:hover .zenith-cta {
+    opacity: 1;
+    transition: 0.2s;
   }
 }

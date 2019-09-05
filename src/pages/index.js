@@ -291,7 +291,7 @@ class IndexPage extends React.Component {
             <div class="col sec-5-col-2">
               <img class="img-fluid sec-5-img" src={customerReviews} />
             </div> */}
-            <div class="col-lg-6 text-center lane-main">
+            <div class="col-lg-8 text-center lane-main">
               <div class="lane-img"></div>
 
               <a
@@ -304,7 +304,7 @@ class IndexPage extends React.Component {
               </a>
             </div>
 
-            <div class="col-lg-6 testi-content">
+            <div class="col-lg-4 testi-content">
               <h5 class="text-right">Lane Mitchell Jewelers</h5>
 
               <blockquote class="blockquote">
@@ -327,7 +327,7 @@ class IndexPage extends React.Component {
               <img class="img-fluid sec-5-img" src={customerReviews} />
             </div> */}
 
-            <div class="col-lg-6 testi-content">
+            <div class="col-lg-4 testi-content">
               <h5 class="text-left">Zenith Chiropractic</h5>
               <blockquote class="blockquote">
                 <p class="text-justify mb-0">
@@ -342,13 +342,13 @@ class IndexPage extends React.Component {
                 </footer>
               </blockquote>
             </div>
-            <div class="col-lg-6 text-center zenith-main">
+            <div class="col-lg-8 text-center zenith-main">
               <div class="zenith-img"></div>
 
               <a
                 class="btn btn-primary zenith-cta"
                 role="button"
-                href="https://calendly.com/alex-belding/go-mad"
+                href="https://zenithchiroco.com"
                 target="_blank"
               >
                 VISIT SITE
@@ -413,9 +413,10 @@ class IndexPage extends React.Component {
             <div class="container">
               <p class="my-4">
                 All rights reserved! WebriQ Pte Ltd{" "}
-                <a href="/terms">Terms of Use</a> |{" "}
-                <a href="/privacy">Provicy Policy</a> |{" "}
-                <a href="/gdpr">About GDPR</a> | <a href="/cookies">Cookies</a>
+                <a href="https://webriq.com/terms">Terms of Use</a> |{" "}
+                <a href="https://webriq.com/privacy">Provicy Policy</a> |{" "}
+                <a href="https://webriq.com/gdpr">About GDPR</a> |{" "}
+                <a href="https://webriq.com/cookies">Cookies</a>
               </p>
             </div>
           </div>
