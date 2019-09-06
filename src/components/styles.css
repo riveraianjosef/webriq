@@ -259,6 +259,10 @@ h1.section-one-h1-1 {
     padding-right: 20px;
   }
 
+  .container.section-two img {
+    padding-top: 25px;
+  }
+
   .navbar-brand {
     margin-left: 20px;
   }
@@ -736,10 +740,6 @@ p {
 
   .why-go-mad-list img {
     margin-left: -35px !important;
-  }
-
-  .why-go-mad-list {
-    padding-right: ;
   }
 
   .why-go-mad-h2-2 {
