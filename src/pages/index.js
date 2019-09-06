@@ -120,42 +120,14 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </div>
-        <div class="row why-go-mad-row mx-auto">
-          <div class="col-md-6 mx-auto">
-            <img src={questions} class="img-fluid sec-3-img" />
-          </div>
-          <div class="col-md-6 mx-auto why-go-mad-col-2">
-            {/* <h2 class="why-go-mad-h2-1">GO MAD</h2> */}
-            <h2 class="why-go-mad-h2-2">Why Go Mad?</h2>
-            <ul class="why-go-mad-list">
-              <li>
-                <img src={blueCheck} />
-                &nbsp;Flat Monthly Fee, No Hidden Fees
-              </li>
-              <li>
-                <img src={blueCheck} />
-                &nbsp;100% Custom Website
-              </li>
-              <li>
-                <img src={blueCheck} />
-                &nbsp;Unlimited support: Changes Design, Updates included
-              </li>
-              <li>
-                <img src={blueCheck} />
-                &nbsp;Full Control of the Website, We put you in the driver’s
-                seat
-              </li>
-            </ul>
-          </div>
-        </div>
 
         <div class="container-fluid section-three">
-          {/* <div class="row why-go-mad-row mx-auto">
+          <div class="row why-go-mad-row mx-auto">
             <div class="col-md-6 mx-auto">
               <img src={questions} class="img-fluid sec-3-img" />
             </div>
             <div class="col-md-6 mx-auto why-go-mad-col-2">
-              <h2 class="why-go-mad-h2-1">GO MAD</h2>
+              {/* <h2 class="why-go-mad-h2-1">GO MAD</h2> */}
               <h2 class="why-go-mad-h2-2">Why Go Mad?</h2>
               <ul class="why-go-mad-list">
                 <li>
@@ -177,7 +149,123 @@ class IndexPage extends React.Component {
                 </li>
               </ul>
             </div>
+          </div>
+          {/* <h2 class="text-center our-mad-wdaas">Our Mad WDaaS</h2>
+          <div class="row wdaas-row">
+            <div class="col">
+              <div class="text-center wdaas-col">
+                <h4 class="text-center">
+                  <strong>Mad</strong>
+                </h4>
+                <p>
+                  one-time setup fee of $299
+                  <br />
+                  $125 a month paid annually
+                </p>
+              </div>
+              <div class="wdaas-col-2">
+                <ul>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Customizable Design
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Unlimited Updates &amp; Changes
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;A limited number of pages and contact forms
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Hosting, Security &amp; Analytics Included
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text-center wdaas-col">
+                <h4 class="text-center">
+                  <strong>Madder</strong>
+                </h4>
+                <p>
+                  one-time setup fee of $999
+                  <br />
+                  $333.25 a month paid annually
+                  <br />
+                  $399 a month paid monthly
+                </p>
+              </div>
+              <div class="wdaas-col-2 column-2">
+                <ul>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Everything in Mad+
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;100% Custom Design
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Unlimited pages and custom web forms
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Enterprise-grade customer support tools
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Enhanced Analytics
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text-center wdaas-col">
+                <h4 class="text-center">
+                  <strong>Maddest</strong>
+                </h4>
+                <p>
+                  one-time setup fee of $1,999
+                  <br />
+                  $583.25 a month paid annually
+                  <br />
+                  $699 a month paid monthly
+                </p>
+              </div>
+              <div class="wdaas-col-2 column-3">
+                <ul>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Everything in Madder+ Custom ChatBot
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;integrated on website &amp; Facebook
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;SEO focused content marketing
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Monthly Newsletter
+                  </li>
+                  <li>
+                    <img src={blueCheck} />
+                    &nbsp;Custom landing pages
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div> */}
+          <img src={dividerWhiteTop} class="divi-white-top" />
+          <img src={dividerOrange} class="divi-orange" />
+        </div>
+
+        <div class="our-mad-wdaas-sec">
           <h2 class="text-center our-mad-wdaas">Our Mad WDaaS</h2>
           <div class="row wdaas-row">
             <div class="col">
@@ -289,8 +377,6 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </div>
-          <img src={dividerWhiteTop} class="divi-white-top" />
-          <img src={dividerOrange} class="divi-orange" />
         </div>
 
         <div class="container-fluid section-four">
