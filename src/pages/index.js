@@ -150,9 +150,7 @@ class IndexPage extends React.Component {
               </ul>
             </div>
           </div>
-          <h2 class="text-center our-mad-wdaas">
-            <strong>Our Mad WDaaS</strong>
-          </h2>
+          <h2 class="text-center our-mad-wdaas">Our Mad WDaaS</h2>
           <div class="row wdaas-row">
             <div class="col">
               <div class="text-center wdaas-col">
