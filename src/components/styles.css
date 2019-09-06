@@ -1,3 +1,158 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font: 16px/1.7 "Open Sans", sans-serif !important;
+  font-weight: 400;
+  color: #031121;
+  padding-right: 0px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Montserrat", sans-serif !important;
+  line-height: 1.15;
+  text-transform: unset;
+  font-style: normal;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+}
+
+a {
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+strong {
+  font-weight: 600;
+}
+.bg-dirty-white {
+  background-color: #f0f0f0;
+}
+.bg-blue {
+  background-color: #0658ff;
+}
+.text-orange {
+  color: #f55c11;
+}
+.text-blue {
+  color: #0658ff;
+}
+.text-blue-90 {
+  color: #054fe6;
+}
+.text-blue-60 {
+  color: #043599;
+}
+
+.border-blue {
+  border-color: #0658ff;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 12px 42px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+  text-transform: uppercase;
+  letter-spacing: normal;
+  margin: 0 5px 15px 5px;
+}
+
+.btn-primary {
+  background-color: #0658ff;
+  border-color: #0658ff;
+}
+.btn-primary:hover {
+  background-color: #031121;
+  border-color: #031121;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(3, 17, 33, 0.12);
+}
+
+.btn-primary.btn-inverted {
+  background: #fff;
+  color: #031121;
+  border: 2px solid #fff;
+}
+.btn-primary.btn-inverted:hover {
+  border-color: #cddeff;
+  background-color: #cddeff;
+}
+.btn-primary.btn-bordered {
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.btn-primary.btn-bordered:hover {
+  border-color: #cddeff;
+  background-color: #cddeff;
+  color: #031121;
+}
+
+main {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 4.209em;
+  }
+  h2,
+  .h2 {
+    font-size: 3.157em;
+  }
+  h3,
+  .h3 {
+    font-size: 2.369em;
+  }
+  h4,
+  .h4 {
+    font-size: 1.777em;
+  }
+  h5,
+  .h5 {
+    font-size: 1.333em !important;
+  }
+  h6,
+  .h6 {
+    font-size: 1em;
+  }
+  .pr-md-13 {
+    padding-right: 11rem;
+  }
+}
+@media (min-width: 992px) {
+  .pr-lg-13 {
+    padding-right: 11rem;
+  }
+}
+
 .container-fluid.section-one {
   position: relative;
   z-index: 1;
@@ -50,7 +205,6 @@ h5 {
 .section-one h1 {
   font-size: 67.34px;
   font-family: Montserrat, sans-serif;
-  text-shadow: 1px 3px 0px rgba(255, 95, 17, 0.4);
 }
 
 h1.section-one-h1-1 {
@@ -89,7 +243,7 @@ h1.section-one-h1-1 {
 }
 
 .section-two {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -139,11 +293,18 @@ h1.section-one-h1-1 {
 }
 
 .section-three {
-  padding-top: 0;
   padding-bottom: 0;
   padding-right: 0;
   padding-left: 0;
   background-color: #fef4e7;
+  background-size: cover !important;
+  background-position: center !important;
+  background: url(../img/bg-test.svg),
+    linear-gradient(
+      112deg,
+      rgba(254, 244, 231, 1) 0%,
+      rgba(254, 244, 231, 1) 100%
+    );
 }
 
 .section-three p {
@@ -157,39 +318,21 @@ h1.section-one-h1-1 {
   padding-left: 50px;
 }
 
-.sec-3-img {
+/* .sec-3-img {
   padding-top: 200px;
-}
+} */
 
 .why-go-mad-col-2 {
   padding-left: 0;
   padding-top: 50px;
 }
-.why-go-mad-h2-1 {
-  padding-top: 5em;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: -6px;
-  font-size: 67px;
-  margin-left: 50px;
-  color: rgba(125, 45, 0, 0.27);
-}
 
 .why-go-mad-h2-2 {
   margin: 0px;
+  color: #054fe6;
   margin-top: -47px;
   font-size: 50.52px;
   font-family: Montserrat, sans-serif;
-}
-
-h2 {
-  font-weight: 300;
-  color: #000;
-}
-
-h1 {
-  font-weight: 100;
-  text-transform: capitalize !important;
 }
 
 .why-go-mad-list {
@@ -212,6 +355,7 @@ h1 {
   padding-bottom: 30px;
   font-family: Montserrat, sans-serif;
   font-size: 50.52px;
+  color: #054fe6;
 }
 
 .wdaas-row {
@@ -231,7 +375,7 @@ h1 {
 }
 
 .wdaas-col {
-  background: url(../img/our-mad-bg.svg);
+  background: url(../img/atf-bg.svg);
   background-size: cover;
   background-color: #f55c11;
   height: 150px;
@@ -323,6 +467,10 @@ h1 {
 
 .container-fluid.section-three {
   position: relative;
+  z-index: -1;
+  padding-top: 15em;
+  padding-bottom: 24em;
+  height: auto !important;
 }
 
 .divi-white-top {
@@ -337,10 +485,6 @@ h1 {
   bottom: -30px;
   width: 100%;
   left: 0px;
-}
-
-.container-fluid.section-three {
-  z-index: -1;
 }
 
 .navbar.navbar-light.navbar-expand-md {
@@ -503,7 +647,7 @@ p {
   font-family: Montserrat, sans-serif;
   padding-bottom: 40px;
   padding-top: 50px;
-  color: #000;
+  color: #054fe6;
 }
 
 .testi-row-1 {
@@ -533,7 +677,7 @@ p {
 .blockquote-footer {
   font-family: "Open Sans", sans-serif;
   padding-top: 20px;
-  color: #f55c11;
+  color: #054fe6;
 }
 
 .sec-5-col-2 {
@@ -542,26 +686,32 @@ p {
 
 @media (max-width: 1920px) and (min-width: 1367px) {
   .container-fluid.section-three {
-    height: 2200px !important;
+    padding: 20em 0 30em 0;
   }
 }
 
 @media (max-width: 1366px) and (min-width: 1025px) {
   .container-fluid.section-three {
-    height: 1800px !important;
+    height: auto !important;
+  }
+  .why-go-mad-h2-2 {
+    padding-top: 150px;
   }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
   .container-fluid.section-three {
-    height: 1600px !important;
+    height: auto !important;
+    padding: 10em 0 20em 0;
   }
 }
 
 @media (max-width: 768px) and (min-width: 415px) {
   .container-fluid.section-three {
-    height: 2300px !important;
+    height: auto !important;
+    padding: 10em 0 20em 0;
   }
+
   .why-go-mad-list img {
     margin-left: -35px !important;
   }
@@ -597,16 +747,15 @@ p {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .why-go-mad-h2-2 {
+    padding-top: 200px;
+  }
 }
 
 .cta:hover {
   background-color: #021f5a;
   color: #fff !important;
   border-color: #021f5a;
-}
-
-.update-text h3 {
-  text-shadow: 1px 2px 0px rgba(255, 255, 255, 0.212);
 }
 
 .sec-4-cta {
@@ -680,13 +829,15 @@ p {
 
 @media (max-width: 414px) and (min-width: 376px) {
   .container-fluid.section-three {
-    height: 2300px !important;
+    height: auto !important;
+    padding: 5em 0 10em 0;
   }
 }
 
 @media (max-width: 375px) and (min-width: 321px) {
   .container-fluid.section-three {
-    height: 2300px !important;
+    height: auto !important;
+    padding: 5em 0 10em 0;
   }
 }
 
@@ -954,7 +1105,7 @@ footer {
 }
 
 .why-go-mad-h2-1 {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .row {

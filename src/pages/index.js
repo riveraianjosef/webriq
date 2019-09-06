@@ -120,9 +120,37 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </div>
+        <div class="row why-go-mad-row mx-auto">
+          <div class="col-md-6 mx-auto">
+            <img src={questions} class="img-fluid sec-3-img" />
+          </div>
+          <div class="col-md-6 mx-auto why-go-mad-col-2">
+            {/* <h2 class="why-go-mad-h2-1">GO MAD</h2> */}
+            <h2 class="why-go-mad-h2-2">Why Go Mad?</h2>
+            <ul class="why-go-mad-list">
+              <li>
+                <img src={blueCheck} />
+                &nbsp;Flat Monthly Fee, No Hidden Fees
+              </li>
+              <li>
+                <img src={blueCheck} />
+                &nbsp;100% Custom Website
+              </li>
+              <li>
+                <img src={blueCheck} />
+                &nbsp;Unlimited support: Changes Design, Updates included
+              </li>
+              <li>
+                <img src={blueCheck} />
+                &nbsp;Full Control of the Website, We put you in the driver’s
+                seat
+              </li>
+            </ul>
+          </div>
+        </div>
 
         <div class="container-fluid section-three">
-          <div class="row why-go-mad-row mx-auto">
+          {/* <div class="row why-go-mad-row mx-auto">
             <div class="col-md-6 mx-auto">
               <img src={questions} class="img-fluid sec-3-img" />
             </div>
@@ -149,7 +177,7 @@ class IndexPage extends React.Component {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
           <h2 class="text-center our-mad-wdaas">Our Mad WDaaS</h2>
           <div class="row wdaas-row">
             <div class="col">
@@ -166,19 +194,19 @@ class IndexPage extends React.Component {
               <div class="wdaas-col-2">
                 <ul>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Customizable Design
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Unlimited Updates &amp; Changes
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;A limited number of pages and contact forms
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Hosting, Security &amp; Analytics Included
                   </li>
                 </ul>
@@ -200,23 +228,23 @@ class IndexPage extends React.Component {
               <div class="wdaas-col-2 column-2">
                 <ul>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Everything in Mad+
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;100% Custom Design
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Unlimited pages and custom web forms
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Enterprise-grade customer support tools
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Enhanced Analytics
                   </li>
                 </ul>
@@ -238,23 +266,23 @@ class IndexPage extends React.Component {
               <div class="wdaas-col-2 column-3">
                 <ul>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Everything in Madder+ Custom ChatBot
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;integrated on website &amp; Facebook
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;SEO focused content marketing
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Monthly Newsletter
                   </li>
                   <li>
-                    <img src={tickCircleBlk} />
+                    <img src={blueCheck} />
                     &nbsp;Custom landing pages
                   </li>
                 </ul>
@@ -412,10 +440,21 @@ class IndexPage extends React.Component {
             <div class="container">
               <p class="my-4">
                 All rights reserved! WebriQ Pte Ltd{" "}
-                <a href="https://webriq.com/terms">Terms of Use</a> |{" "}
-                <a href="https://webriq.com/privacy">Provicy Policy</a> |{" "}
-                <a href="https://webriq.com/gdpr">About GDPR</a> |{" "}
-                <a href="https://webriq.com/cookies">Cookies</a>
+                <a href="https://webriq.com/terms" target="_blank">
+                  Terms of Use
+                </a>{" "}
+                |{" "}
+                <a href="https://webriq.com/privacy" target="_blank">
+                  Provicy Policy
+                </a>{" "}
+                |{" "}
+                <a href="https://webriq.com/gdpr" target="_blank">
+                  About GDPR
+                </a>{" "}
+                |{" "}
+                <a href="https://webriq.com/cookies" target="_blank">
+                  Cookies
+                </a>
               </p>
             </div>
           </div>
