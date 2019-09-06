@@ -56,34 +56,35 @@ class IndexPage extends React.Component {
         </nav>
 
         <div class="container-fluid section-one">
-          <div class="row sec-one-inner-div">
-            <div class="col-md-6">
-              <div class="brandstamp">
-                <h1 class="section-one-h1-1">
-                  <strong>Don’t Get Mad</strong>
-                  <br />
-                  <strong>Go Mad With</strong>
-                </h1>
+          <div class="container atf">
+            <div class="row sec-one-inner-div">
+              <div class="col-md-6">
+                <div class="brandstamp">
+                  <h1 class="section-one-h1-1">
+                    Don’t Get Mad
+                    <br />
+                    Go Mad With
+                  </h1>
 
-                <h1 class="section-one-h1-2">
-                  <strong>WebriQ Goes Mad</strong>
-                </h1>
-                <a
-                  class="btn btn-primary cta"
-                  role="button"
-                  href="https://calendly.com/alex-belding/go-mad"
-                  target="_blank"
-                >
-                  SCHEDULE A CONSULT
-                </a>
+                  <h1 class="section-one-h1-2">WebriQ Goes Mad</h1>
+                  <a
+                    class="btn btn-primary cta"
+                    role="button"
+                    href="https://calendly.com/alex-belding/go-mad"
+                    target="_blank"
+                  >
+                    SCHEDULE A CONSULT
+                  </a>
+                </div>
               </div>
-            </div>
 
-            <div class="col-md-6">
-              <img src={pair} class="img-fluid atf-img" alt="Pair" />
+              <div class="col-md-6">
+                <img src={pair} class="img-fluid atf-img" alt="Pair" />
+              </div>
+              <div class="col"></div>
             </div>
-            <div class="col"></div>
           </div>
+
           <img src={dividerBlue} class="divi-blue" alt="Blue Divider" />
         </div>
 
@@ -150,117 +151,6 @@ class IndexPage extends React.Component {
               </ul>
             </div>
           </div>
-          {/* <h2 class="text-center our-mad-wdaas">Our Mad WDaaS</h2>
-          <div class="row wdaas-row">
-            <div class="col">
-              <div class="text-center wdaas-col">
-                <h4 class="text-center">
-                  <strong>Mad</strong>
-                </h4>
-                <p>
-                  one-time setup fee of $299
-                  <br />
-                  $125 a month paid annually
-                </p>
-              </div>
-              <div class="wdaas-col-2">
-                <ul>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Customizable Design
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Unlimited Updates &amp; Changes
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;A limited number of pages and contact forms
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Hosting, Security &amp; Analytics Included
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col">
-              <div class="text-center wdaas-col">
-                <h4 class="text-center">
-                  <strong>Madder</strong>
-                </h4>
-                <p>
-                  one-time setup fee of $999
-                  <br />
-                  $333.25 a month paid annually
-                  <br />
-                  $399 a month paid monthly
-                </p>
-              </div>
-              <div class="wdaas-col-2 column-2">
-                <ul>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Everything in Mad+
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;100% Custom Design
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Unlimited pages and custom web forms
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Enterprise-grade customer support tools
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Enhanced Analytics
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col">
-              <div class="text-center wdaas-col">
-                <h4 class="text-center">
-                  <strong>Maddest</strong>
-                </h4>
-                <p>
-                  one-time setup fee of $1,999
-                  <br />
-                  $583.25 a month paid annually
-                  <br />
-                  $699 a month paid monthly
-                </p>
-              </div>
-              <div class="wdaas-col-2 column-3">
-                <ul>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Everything in Madder+ Custom ChatBot
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;integrated on website &amp; Facebook
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;SEO focused content marketing
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Monthly Newsletter
-                  </li>
-                  <li>
-                    <img src={blueCheck} />
-                    &nbsp;Custom landing pages
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> */}
           <img src={dividerWhiteTop} class="divi-white-top" />
           <img src={dividerOrange} class="divi-orange" />
         </div>
@@ -399,10 +289,6 @@ class IndexPage extends React.Component {
         <div class="container-fluid section-five">
           <h2 class="text-center">Testimonials</h2>
           <div class="row testi-top-row">
-            {/* <div class="col"></div>
-            <div class="col sec-5-col-2">
-              <img class="img-fluid sec-5-img" src={customerReviews} />
-            </div> */}
             <div class="col-lg-8 text-center lane-main">
               <div class="lane-img"></div>
 
@@ -468,57 +354,6 @@ class IndexPage extends React.Component {
               </a>
             </div>
           </div>
-          {/* <img src={dividerWhiteTop} class="divi-white-top-2" /> */}
-          {/* <div></div>
-          <h2 class="text-center">Testimonials</h2>
-          <div class="row text-center d-flex testi-row-1">
-            <div class="col sec-5-col-1">
-              <img class="img-fluid lane-mitch-img" src={laneMitchell} />
-              <a
-                class="btn btn-primary sec-4-cta lane-btn"
-                role="button"
-                href="https://lanemitchelljewelers.com"
-                target="_blank"
-              >
-                VISIT SITE
-              </a>
-            </div>
-            <div class="col sec-5-col-2 ">
-              <h5 class="text-right">Lane Mitchell Jewelers</h5>
-              <blockquote class="blockquote">
-                <p class="text-justify mb-0">
-                  “WebriQ Goes Mad is a really fantastic company that does all
-                  the technical stuff of building and maintaining a web site yet
-                  empowers the customer to be in full control. Their web design
-                  as a service model was a huge part in us deciding to go with
-                  this web company and we are so glad we did! Highly recommend!”
-                </p>
-                <footer class="blockquote-footer text-right">
-                  L’Aura Williams
-                </footer>
-              </blockquote>
-            </div>
-          </div>
-          <div class="row text-center testi-row-2 flex-column-reverse flex-md-row">
-            <div class="col testi-content">
-              <h5 class="text-left">Zenith Chiropractic</h5>
-              <blockquote class="blockquote">
-                <p class="text-justify mb-0">
-                  “The team at Webriq Goes Mad exceeded my expectations. The
-                  turnaround on getting my new website up and running was fast,
-                  easy, and I am looking forward to improved performance for my
-                  business online. One of the things that I really appreciated
-                  was their quick response time and easy communication.”
-                </p>
-                <footer class="blockquote-footer text-left">
-                  Dr John Stenberg
-                </footer>
-              </blockquote>
-            </div>
-            <div class="col sec-5-col-2">
-              <img class="img-fluid zenith-img" src={zenith} />
-            </div>
-          </div> */}
         </div>
 
         <div class="container footer">
