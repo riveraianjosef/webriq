@@ -285,7 +285,7 @@ class IndexPage extends React.Component {
         </div>
 
         <div class="container-fluid section-five">
-          {/* <h2 class="text-center">Testimonials</h2> */}
+          <h2 class="text-center">Testimonials</h2>
           <div class="row testi-top-row">
             {/* <div class="col"></div>
             <div class="col sec-5-col-2">
@@ -297,7 +297,7 @@ class IndexPage extends React.Component {
               <a
                 class="btn btn-primary lane-cta"
                 role="button"
-                href="https://lanemitchelljewelers.com"
+                href="https://zenithchiroco.com"
                 target="_blank"
               >
                 VISIT SITE
@@ -305,18 +305,19 @@ class IndexPage extends React.Component {
             </div>
 
             <div class="col-lg-4 testi-content-1">
-              <h5 class="text-right">Lane Mitchell Jewelers</h5>
+              <h5 class="text-right">Zenith Chiropractic</h5>
 
               <blockquote class="blockquote">
                 <p class="text-justify mb-0">
-                  “WebriQ Goes Mad is a really fantastic company that does all
-                  the technical stuff of building and maintaining a web site yet
-                  empowers the customer to be in full control. Their web design
-                  as a service model was a huge part in us deciding to go with
-                  this web company and we are so glad we did! Highly recommend!”
+                  “The team at Webriq Goes Mad exceeded my expectations. The
+                  turnaround on getting my new website up and running was fast,
+                  easy, and I am looking forward to improved performance for my
+                  business online. One of the things that I really appreciated
+                  was their quick response time and easy communication.”
                 </p>
+
                 <footer class="blockquote-footer text-right">
-                  L’Aura Williams
+                  Dr John Stenberg
                 </footer>
               </blockquote>
             </div>
@@ -328,17 +329,17 @@ class IndexPage extends React.Component {
             </div> */}
 
             <div class="col-lg-4 testi-content-2">
-              <h5 class="text-left">Zenith Chiropractic</h5>
+              <h5 class="text-left"> Lane Mitchell Jewelers</h5>
               <blockquote class="blockquote">
                 <p class="text-justify mb-0">
-                  “The team at Webriq Goes Mad exceeded my expectations. The
-                  turnaround on getting my new website up and running was fast,
-                  easy, and I am looking forward to improved performance for my
-                  business online. One of the things that I really appreciated
-                  was their quick response time and easy communication.”
+                  “WebriQ Goes Mad is a really fantastic company that does all
+                  the technical stuff of building and maintaining a web site yet
+                  empowers the customer to be in full control. Their web design
+                  as a service model was a huge part in us deciding to go with
+                  this web company and we are so glad we did! Highly recommend!”
                 </p>
                 <footer class="blockquote-footer text-left">
-                  Dr John Stenberg
+                  L’Aura Williams
                 </footer>
               </blockquote>
             </div>
@@ -348,7 +349,7 @@ class IndexPage extends React.Component {
               <a
                 class="btn btn-primary zenith-cta"
                 role="button"
-                href="https://zenithchiroco.com"
+                href="https://lanemitchelljewelers.com"
                 target="_blank"
               >
                 VISIT SITE
