@@ -78,7 +78,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#f7f7f7`,
         display: `minimal-ui`,
-        icon: `static/webriq.png`
+        icon: `static/webriq.ico`
       }
     },
     `gatsby-plugin-offline`,
