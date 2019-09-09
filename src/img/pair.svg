@@ -30,8 +30,6 @@
 	.st23{fill:#4C4C78;}
 	.st24{fill:#C8CAD7;}
 	.st25{fill:#EDEDF4;}
-	.st26{font-family:'MyriadPro-Regular';}
-	.st27{font-size:12px;}
 </style>
 <title>pair programming</title>
 <rect x="360" y="359.2" class="st0" width="283.4" height="65.6"/>
@@ -53,12 +51,13 @@
 <polygon class="st3" points="366.5,419.4 366.5,430.4 638.9,430.4 638.9,422.4 "/>
 <polygon class="st4" points="384.9,341.3 730.4,341.3 780.6,357.9 780.6,367.5 349.7,364.2 349.7,354.4 "/>
 <polygon class="st2" points="349.7,354.4 780.6,357.9 780.6,367.5 349.7,364.2 "/>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="421.41" y1="576.73" x2="423.73" y2="576.73" gradientTransform="matrix(1 0 0 1 -34.96 -108.93)">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="421.41" y1="163.27" x2="423.73" y2="163.27" gradientTransform="matrix(1 0 0 -1 -34.96 631.07)">
 	<stop  offset="0" style="stop-color:#808080;stop-opacity:0.25"/>
 	<stop  offset="0.54" style="stop-color:#808080;stop-opacity:0.12"/>
 	<stop  offset="1" style="stop-color:#808080;stop-opacity:0.1"/>
 </linearGradient>
-<path class="st5" d="M388.7,468.7l-2-0.3c0-0.1,0-0.2,0-0.2c-0.1-0.5-0.1-0.9-0.2-1.4c0.8,0.7,1.6,1.3,2.3,2h-0.1V468.7z"/>
+<path class="st5" d="M388.7,468.7l-2-0.3c0-0.1,0-0.2,0-0.2c-0.1-0.5-0.1-0.9-0.2-1.4c0.8,0.7,1.6,1.3,2.3,2h-0.1L388.7,468.7
+	L388.7,468.7z"/>
 <path class="st6" d="M345.3,623.1c1.3-0.3,2.6-0.5,3.9-0.7c9.1-1.3,18.3,0.1,26.6,3.9c-0.8,6.2-1.7,12.6,0.1,18.5
 	c1.2,4.2,3.7,8,4.3,12.4c2.7,0.5,4.9,2.4,5.8,5.1c0.4,1.1,0.6,2.4,0.6,3.6c0,1.5-0.2,3-0.6,4.4c-0.3,2.4-2.4,4.2-4.8,4
 	c-7.7,0.9-15.3-2.2-22.5-5.2l-14-5.8c-1.6-0.7-3.3-1.4-4.9-2.2c-3-1.6-5.6-3.8-7.8-6.4c-0.5-0.5-0.8-1-0.9-1.7
@@ -287,5 +286,4 @@
 <circle class="st25" cx="423.7" cy="154.7" r="1.4"/>
 <circle class="st25" cx="428" cy="154.7" r="1.4"/>
 <circle class="st25" cx="432.3" cy="154.7" r="1.4"/>
-<text transform="matrix(1 0 0 1 381 373)" class="st26 st27">1e394c</text>
 </svg>
