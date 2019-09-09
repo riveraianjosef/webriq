@@ -177,8 +177,8 @@ h5 {
   background: url(../img/atf-bg.svg);
   background-color: #103ac6;
   background-size: cover;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 250px !important;
+  padding-bottom: 250px !important;
   background-repeat: no-repeat;
   animation: bgposition 10s ease-in infinite;
 }
@@ -1001,9 +1001,7 @@ p {
 
 @media (max-width: 414px) {
   .container-fluid.section-one {
-    height: 800px;
-    padding-top: 150px !important;
-    padding-bottom: 50px !important;
+    height: auto;
   }
 }
 
@@ -1026,10 +1024,9 @@ p {
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .section-one {
-    padding: 0px;
     background-color: #103ac6;
-    padding-top: 120px;
-    padding-bottom: 150px;
+    /* padding-top: 120px;
+    padding-bottom: 150px; */
   }
 }
 

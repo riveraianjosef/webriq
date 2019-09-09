@@ -44,15 +44,13 @@ class IndexPage extends React.Component {
               <img class="img-fluid float-left" src={logo} width="70px" />
             </a>
             <div class="row sec-one-inner-div">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="brandstamp">
                   <h1 class="section-one-h1-1">
-                    Don’t Get Mad
-                    <br />
-                    Go Mad With
+                    Don’t Get Mad Go Mad With WebriQ Goes Mad
                   </h1>
 
-                  <h1 class="section-one-h1-2">WebriQ Goes Mad</h1>
+                  <h1 class="section-one-h1-2"></h1>
                   <a
                     class="btn btn-primary cta"
                     role="button"
@@ -64,9 +62,9 @@ class IndexPage extends React.Component {
                 </div>
               </div>
 
-              <div class="col-md-6">
+              {/* <div class="col-md-6">
                 <img src={pair} class="img-fluid atf-img" alt="Pair" />
-              </div>
+              </div> */}
               <div class="col"></div>
             </div>
           </div>
@@ -329,49 +327,6 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </div>
-          {/* <div class="row testi-top-row">
-            <div class="col-lg-8 text-center lane-main">
-              <div class="lane-img"></div>
-            </div>
-
-            <div class="col-lg-4 testi-content-1">
-              <h5 class="text-right">Zenith Chiropractic</h5>
-
-              <blockquote class="blockquote">
-                <p class="text-justify mb-0">
-                  “The team at Webriq Goes Mad exceeded my expectations. The
-                  turnaround on getting my new website up and running was fast,
-                  easy, and I am looking forward to improved performance for my
-                  business online. One of the things that I really appreciated
-                  was their quick response time and easy communication.”
-                </p>
-
-                <footer class="blockquote-footer text-right">
-                  Dr John Stenberg
-                </footer>
-              </blockquote>
-            </div>
-          </div> */}
-          {/* <div class="row testi-bottom-row flex-column-reverse flex-lg-row">
-            <div class="col-lg-4 testi-content-2">
-              <h5 class="text-left"> Lane Mitchell Jewelers</h5>
-              <blockquote class="blockquote">
-                <p class="text-justify mb-0">
-                  “WebriQ Goes Mad is a really fantastic company that does all
-                  the technical stuff of building and maintaining a web site yet
-                  empowers the customer to be in full control. Their web design
-                  as a service model was a huge part in us deciding to go with
-                  this web company and we are so glad we did! Highly recommend!”
-                </p>
-                <footer class="blockquote-footer text-left">
-                  L’Aura Williams
-                </footer>
-              </blockquote>
-            </div>
-            <div class="col-lg-8 text-center zenith-main">
-              <div class="zenith-img"></div>
-            </div>
-          </div> */}
         </div>
 
         <div class="container footer">
