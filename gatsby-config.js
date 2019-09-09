@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `WebriQ Blog`,
+    title: `WebriQ Goes Mad`,
     author: `Kyle Mathews`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -72,7 +72,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `WebriQ Blog`,
+        name: `WebriQ Goes Mad`,
         short_name: `WebriQ`,
         start_url: `/`,
         background_color: `#663399`,

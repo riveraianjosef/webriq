@@ -273,6 +273,7 @@ class IndexPage extends React.Component {
         </div>
 
         <div class="container-fluid section-five">
+          <img class="testi-div" src={dividerWhiteTop} />
           <h2 class="text-center">Testimonials</h2>
           <div class="container">
             <div class="row">

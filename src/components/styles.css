@@ -439,7 +439,6 @@ h1.section-one-h1-1 {
 
 .section-four {
   padding-top: 50px;
-  padding-bottom: 50px;
   background-color: #fff;
 }
 
@@ -624,7 +623,8 @@ p {
 } */
 
 .section-five {
-  padding-top: 100px;
+  position: relative;
+  padding-top: 200px;
   padding-bottom: 200px;
   background-color: #fafafa;
   background: url(../img/testi-bg.svg);
@@ -634,6 +634,12 @@ p {
   padding-left: 0px;
   width: 100%;
   height: auto;
+}
+
+.testi-div {
+  position: absolute;
+  width: 100%;
+  top: 0;
 }
 
 .section-five p {
@@ -708,6 +714,9 @@ p {
   }
   .wdaas-col-2 {
     height: 300px;
+  }
+  .section-five {
+    padding-top: 300px;
   }
 }
 
@@ -1187,6 +1196,10 @@ footer {
 
 @media (max-width: 768px) and (min-width: 320px) {
   .our-mad-wdaas {
+    padding-top: 100px;
+  }
+
+  .section-five {
     padding-top: 100px;
   }
 }
