@@ -183,6 +183,13 @@ h5 {
   animation: bgposition 10s ease-in infinite;
 }
 
+@media (max-width: 1920px) and (min-width: 1367px) {
+  .section-one {
+    padding-top: 350px !important;
+    padding-bottom: 350px !important;
+  }
+}
+
 .section-one row {
   padding-right: 50px;
   padding-left: 50px;
@@ -358,7 +365,6 @@ h1.section-one-h1-1 {
 }
 
 .wdaas-row {
-  padding: 0px;
   padding-top: 20px;
   margin-right: 0px;
   margin-left: 0px;

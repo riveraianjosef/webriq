@@ -47,7 +47,7 @@ class IndexPage extends React.Component {
               <div class="col-md-12">
                 <div class="brandstamp">
                   <h1 class="section-one-h1-1">
-                    Don’t Get Mad Go Mad With WebriQ Goes Mad
+                    Don’t Get Mad, Go Mad With WebriQ Goes Mad
                   </h1>
 
                   <h1 class="section-one-h1-2"></h1>
