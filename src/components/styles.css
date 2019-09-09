@@ -198,9 +198,17 @@ h1.section-one-h1-1 {
   color: #fff;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 414px) and (min-width: 376px) {
   .atf-img {
     margin-top: 45px;
+  }
+
+  .zenith-img {
+    padding: 150px 0 !important;
+  }
+
+  .lane-img {
+    padding: 150px 0 !important;
   }
 }
 
@@ -428,8 +436,8 @@ h1.section-one-h1-1 {
 }
 
 .section-four {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #fff;
 }
 
@@ -767,9 +775,15 @@ p {
 }
 
 .zenith-img {
-  width: 100%;
-  padding-left: 0px;
-  font-family: "Open Sans", sans-serif;
+  background: url(../img/zenith-chiro.png);
+  background-size: cover;
+  padding: 200px 0;
+}
+
+.lane-img {
+  background: url(../img/lane-mitchelle.png);
+  background-size: cover;
+  padding: 200px 0;
 }
 
 .text-center.div-section-4 {
@@ -896,6 +910,13 @@ p {
     height: auto !important;
     padding: 10em 0 10em 0;
   }
+  .zenith-img {
+    padding: 135px 0 !important;
+  }
+
+  .lane-img {
+    padding: 135px 0 !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -913,6 +934,14 @@ p {
 @media (max-width: 320px) {
   h2 {
     font-size: 10px !important;
+  }
+
+  .zenith-img {
+    padding: 115px 0 !important;
+  }
+
+  .lane-img {
+    padding: 115px 0 !important;
   }
 }
 
@@ -1021,12 +1050,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .img-fluid.zenith-img {
-    padding-left: 0 !important;
-  }
-}
-
-@media (max-width: 768px) {
   .img-fluid.lane-mitch-img {
     padding-right: 0 !important;
     padding-bottom: 50px;
@@ -1114,26 +1137,7 @@ footer {
   }
 }
 
-.zenith-img:hover {
-  filter: brightness(20%);
-  transition: 0.5s;
-}
-
-.img-fluid.zenith-img {
-  border-radius: 20px;
-  border: 5px solid #fff;
-}
-
-.img-fluid.lane-mitch-img {
-  border-radius: 20px;
-  border: 5px solid #fff;
-}
-
-.img-fluid.lane-mitch-img {
-  margin-right: 0 !important;
-}
-
-.row.text-center.d-flex.testi-row-1 img {
+. .row.text-center.d-flex.testi-row-1 img {
   padding: 0 !important;
 }
 
@@ -1148,6 +1152,13 @@ footer {
 @media (max-width: 768px) {
   .col.sec-5-col-1 {
     padding-right: 0 !important;
+  }
+  .zenith-img {
+    padding: 285px 0;
+  }
+
+  .lane-img {
+    padding: 285px 0;
   }
 }
 
@@ -1197,29 +1208,6 @@ footer {
   }
 }
 
-.lane-img {
-  background: url(../img/zenith-chiro.png);
-  background-size: cover;
-  background-position: center center;
-  height: 400px;
-  text-align: center;
-  z-index: 1;
-}
-
-.zenith-main {
-  padding: 0;
-}
-.lane-main {
-  padding: 0;
-}
-
-.zenith-img {
-  background: url(../img/lane-mitchelle.png);
-  background-size: cover;
-  background-position: center center;
-  height: 400px;
-}
-
 .testi-content-1,
 .testi-content-2 {
   padding: 20px 40px 20px 40px;
@@ -1233,103 +1221,4 @@ footer {
 
 .testi-content p {
   font-family: "Open Sans", sans-serif;
-}
-
-.lane-cta {
-  position: absolute;
-  margin: 0 auto;
-  transform: translateX(-50%);
-  top: 70%;
-  opacity: 0;
-  transition: 0.2s;
-}
-
-.lane-img {
-  filter: brightness(100%);
-  transition: 0.2s;
-}
-
-.lane-img:hover {
-  filter: brightness(20%);
-  transition: 0.2s;
-}
-
-.lane-main:hover .lane-cta {
-  top: 45%;
-  opacity: 1;
-  transition: 0.2s;
-}
-
-.lane-cta:hover {
-  background-color: #f55c11;
-  border-color: #f55c11;
-  transition: 0.2s;
-}
-
-.zenith-img {
-  filter: brightness(100%);
-  transition: 0.2s;
-}
-
-.zenith-cta {
-  position: absolute;
-  margin: 0 auto;
-  transform: translateX(-50%);
-  top: 70%;
-  opacity: 0;
-  transition: 0.2s;
-}
-
-.zenith-cta:hover {
-  background-color: #f55c11;
-  border-color: #f55c11;
-  transition: 0.2s;
-}
-
-.zenith-img:hover {
-  filter: brightness(20%);
-  transition: 0.2s;
-}
-
-.zenith-main:hover .zenith-cta {
-  top: 45%;
-  opacity: 1;
-  transition: 0.2s;
-}
-
-@media (max-width: 414px) and (min-width: 320px) {
-  .lane-img {
-    height: 200px !important;
-  }
-  .zenith-img {
-    height: 200px !important;
-  }
-
-  .section-four {
-    /* padding-top: 50px; */
-    padding-bottom: 100px;
-  }
-
-  .testi-content {
-    padding: 30px;
-  }
-}
-
-@media (max-width: 1024px) and (min-width: 415px) {
-  .lane-img {
-    height: 450px !important;
-  }
-  .zenith-img {
-    height: 450px !important;
-    background-position: left center;
-  }
-
-  .testi-content {
-    padding: 30px;
-  }
-
-  .zenith-main:hover .zenith-cta {
-    opacity: 1;
-    transition: 0.2s;
-  }
 }

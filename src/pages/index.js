@@ -276,8 +276,8 @@ class IndexPage extends React.Component {
           <h2 class="text-center">Testimonials</h2>
           <div class="container">
             <div class="row">
-              <div class="col-lg-6">
-                <img src={zenith} />
+              <div class="col-lg-6 zenith-img">
+                {/* <img src={zenith} /> */}
               </div>
               <div class="col-lg-6 content text-right">
                 <h5 class="text-right">Zenith Chiropractic</h5>
@@ -323,8 +323,8 @@ class IndexPage extends React.Component {
                   Visit Website
                 </a>
               </div>
-              <div class="col-lg-6">
-                <img src={laneMitchell} />
+              <div class="col-lg-6 lane-img">
+                {/* <img src={laneMitchell} /> */}
               </div>
             </div>
           </div>
