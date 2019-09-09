@@ -340,6 +340,8 @@ h1.section-one-h1-1 {
 
 .why-go-mad-list li {
   margin-bottom: 1.5px;
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 16px;
 }
 
 .why-go-mad-list img {
@@ -1137,7 +1139,7 @@ footer {
   }
 }
 
-. .row.text-center.d-flex.testi-row-1 img {
+.row.text-center.d-flex.testi-row-1 img {
   padding: 0 !important;
 }
 
