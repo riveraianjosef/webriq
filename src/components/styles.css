@@ -378,7 +378,7 @@ h1.section-one-h1-1 {
 }
 
 .wdaas-col {
-  /* background: url(../img/atf-bg.svg); */
+  background: url(../img/cta-background.svg);
   background-size: cover;
   background-color: #054fe6;
   height: 150px;
@@ -630,7 +630,7 @@ p {
 
 .section-five {
   position: relative;
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 200px;
   background-color: #fafafa;
   background: url(../img/testi-bg.svg);
