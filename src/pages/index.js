@@ -40,7 +40,7 @@ class IndexPage extends React.Component {
             </a>
             <div class="row sec-one-inner-div">
               <div class="col-md-12">
-                <div class="brandstamp">
+                <div class="brandstamp text-center">
                   <h1 class="section-one-h1-1">
                     Don’t Get Mad, Go Mad With WebriQ Goes Mad
                   </h1>
@@ -64,7 +64,7 @@ class IndexPage extends React.Component {
             </div>
           </div>
 
-          <img src={dividerBlue} class="divi-blue" alt="Blue Divider" />
+          {/* <img src={dividerBlue} class="divi-blue" alt="Blue Divider" /> */}
         </div>
 
         <div class="container section-two">
@@ -135,7 +135,7 @@ class IndexPage extends React.Component {
         </div>
 
         <div class="our-mad-wdaas-sec">
-          <h2 class="text-center our-mad-wdaas">Our Mad WDaaS</h2>
+          <h2 class="text-center our-mad-wdaas">Our Mad WSaaS</h2>
           <div class="row wdaas-row">
             <div class="col">
               <div class="text-center wdaas-col">
@@ -303,7 +303,7 @@ class IndexPage extends React.Component {
                   L’Aura Williams
                 </footer>
                 <a
-                  class="btn btn-primary"
+                  class="btn btn-primary cta"
                   role="button"
                   href="https://lanemitchelljewelers.com"
                   target="_blank"
