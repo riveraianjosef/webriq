@@ -10,7 +10,6 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 // images
 import automation from "../img/automation.svg";
 import branding from "../img/branding.svg";
-import customerReviews from "../img/customer_reviews.svg";
 import design from "../img/design.svg";
 import dividerBlue from "../img/divider-blue.svg";
 import dividerOrange from "../img/divider-orange.svg";
@@ -36,7 +35,12 @@ class IndexPage extends React.Component {
         <div class="container-fluid section-one">
           <div class="container atf">
             <a class="navbar-brand" href="#">
-              <img class="img-fluid float-left" src={logo} width="70px" />
+              <img
+                class="img-fluid float-left"
+                src={logo}
+                width="70px"
+                alt="Webriq Logo"
+              />
             </a>
             <div class="row sec-one-inner-div">
               <div class="col-md-12">
@@ -70,7 +74,7 @@ class IndexPage extends React.Component {
         <div class="container section-two">
           <div class="row text-center">
             <div class="col-md-3">
-              <img src={design} />
+              <img src={design} alt="Design" />
               <h5>Design</h5>
               <p>
                 We design and develop websites that engage, build trust and
@@ -78,12 +82,12 @@ class IndexPage extends React.Component {
               </p>
             </div>
             <div class="col-md-3">
-              <img src={automation} />
+              <img src={automation} alt="Automation" />
               <h5>Automation</h5>
               <p>Marketing automation for local audiences.</p>
             </div>
             <div class="col-md-3">
-              <img src={branding} />
+              <img src={branding} alt="Branding" />
               <h5>Branding</h5>
               <p>
                 Building online brands with engaging content and digital
@@ -91,7 +95,7 @@ class IndexPage extends React.Component {
               </p>
             </div>
             <div class="col-md-3">
-              <img src={technology} />
+              <img src={technology} alt="Technology" />
               <h5>Technology</h5>
               <p>
                 Our WebriQ APP makes managing and growing your website simple
@@ -104,34 +108,42 @@ class IndexPage extends React.Component {
         <div class="container-fluid section-three">
           <div class="row why-go-mad-row mx-auto">
             <div class="col-md-6 mx-auto">
-              <img src={questions} class="img-fluid sec-3-img" />
+              <img
+                src={questions}
+                class="img-fluid sec-3-img"
+                alt="Questions"
+              />
             </div>
             <div class="col-md-6 mx-auto why-go-mad-col-2">
               {/* <h2 class="why-go-mad-h2-1">GO MAD</h2> */}
               <h2 class="why-go-mad-h2-2">Why Go Mad?</h2>
               <ul class="why-go-mad-list">
                 <li>
-                  <img src={blueCheck} />
+                  <img src={blueCheck} alt="Blue Check" />
                   &nbsp;Flat Monthly Fee, No Hidden Fees
                 </li>
                 <li>
-                  <img src={blueCheck} />
+                  <img src={blueCheck} alt="Blue Check" />
                   &nbsp;100% Custom Website
                 </li>
                 <li>
-                  <img src={blueCheck} />
+                  <img src={blueCheck} alt="Blue Check" />
                   &nbsp;Unlimited support: Changes Design, Updates included
                 </li>
                 <li>
-                  <img src={blueCheck} />
+                  <img src={blueCheck} alt="Blue Check" />
                   &nbsp;Full Control of the Website, We put you in the driver’s
                   seat
                 </li>
               </ul>
             </div>
           </div>
-          <img src={dividerWhiteTop} class="divi-white-top" />
-          <img src={dividerOrange} class="divi-orange" />
+          <img
+            src={dividerWhiteTop}
+            class="divi-white-top"
+            alt="White Top Divider "
+          />
+          <img src={dividerOrange} class="divi-orange" alt="Bottom Divider " />
         </div>
 
         <div class="our-mad-wdaas-sec">
@@ -149,19 +161,19 @@ class IndexPage extends React.Component {
               <div class="wdaas-col-2">
                 <ul>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Customizable Design
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Unlimited Updates &amp; Changes
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;A limited number of pages and contact forms
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Hosting, Security &amp; Analytics Included
                   </li>
                 </ul>
@@ -181,23 +193,23 @@ class IndexPage extends React.Component {
               <div class="wdaas-col-2 column-2">
                 <ul>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Everything in Mad+
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;100% Custom Design
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Unlimited pages and custom web forms
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Enterprise-grade customer support tools
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Enhanced Analytics
                   </li>
                 </ul>
@@ -217,23 +229,23 @@ class IndexPage extends React.Component {
               <div class="wdaas-col-2 column-3">
                 <ul>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Everything in Madder+ Custom ChatBot
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;integrated on website &amp; Facebook
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;SEO focused content marketing
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Monthly Newsletter
                   </li>
                   <li>
-                    <img src={blueCheck} />
+                    <img src={blueCheck} alt="Blue Check " />
                     &nbsp;Custom landing pages
                   </li>
                 </ul>
@@ -260,13 +272,15 @@ class IndexPage extends React.Component {
         </div>
 
         <div class="container-fluid section-five">
-          <img class="testi-div" src={dividerWhiteTop} />
+          <img
+            class="testi-div"
+            src={dividerWhiteTop}
+            alt="White Top Divider"
+          />
           <h2 class="text-center">Testimonials</h2>
           <div class="container">
             <div class="row">
-              <div class="col-lg-6 zenith-img">
-                {/* <img src={zenith} /> */}
-              </div>
+              <div class="col-lg-6 zenith-img"></div>
               <div class="col-lg-6 content text-right">
                 <h5 class="text-right">Zenith Chiropractic</h5>
 
@@ -311,9 +325,7 @@ class IndexPage extends React.Component {
                   Visit Website
                 </a>
               </div>
-              <div class="col-lg-6 lane-img">
-                {/* <img src={laneMitchell} /> */}
-              </div>
+              <div class="col-lg-6 lane-img"></div>
             </div>
           </div>
         </div>
