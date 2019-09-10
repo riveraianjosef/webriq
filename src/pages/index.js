@@ -139,9 +139,7 @@ class IndexPage extends React.Component {
           <div class="row wdaas-row">
             <div class="col">
               <div class="text-center wdaas-col">
-                <h4 class="text-center">
-                  <strong>Mad</strong>
-                </h4>
+                <h4 class="text-center">Mad</h4>
                 <p>
                   one-time setup fee of $299
                   <br />
@@ -171,9 +169,7 @@ class IndexPage extends React.Component {
             </div>
             <div class="col">
               <div class="text-center wdaas-col">
-                <h4 class="text-center">
-                  <strong>Madder</strong>
-                </h4>
+                <h4 class="text-center">Madder</h4>
                 <p>
                   one-time setup fee of $999
                   <br />
@@ -209,9 +205,7 @@ class IndexPage extends React.Component {
             </div>
             <div class="col">
               <div class="text-center wdaas-col">
-                <h4 class="text-center">
-                  <strong>Maddest</strong>
-                </h4>
+                <h4 class="text-center">Maddest</h4>
                 <p>
                   one-time setup fee of $1,999
                   <br />

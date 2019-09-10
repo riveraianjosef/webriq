@@ -473,11 +473,12 @@ h1.section-one-h1-1 {
   color: #fff;
   margin-top: 20px;
   font-family: "Open Sans", sans-serif;
+  margin-left: 0;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .divi-blue {
-    bottom: -34px !important;
+    bottom: -31px !important;
   }
 }
 
@@ -645,7 +646,7 @@ p {
 .testi-div {
   position: absolute;
   width: 100%;
-  top: 0;
+  top: -5px;
 }
 
 .section-five p {
@@ -709,7 +710,7 @@ p {
   padding: 0px;
 }
 
-@media (max-width: 1920px) and (min-width: 1367px) {
+@media (max-width: 1920px) and (min-width: 1601px) {
   .container-fluid.section-three {
     padding: 20em 0 30em 0;
   }
@@ -726,7 +727,29 @@ p {
   }
 }
 
-@media (max-width: 1366px) and (min-width: 1025px) {
+@media (max-width: 1600px) and (min-width: 1441px) {
+  .wdaas-row {
+    padding-right: 228px;
+    padding-left: 228px;
+  }
+
+  .wdaas-col-2 {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1367px) {
+  .wdaas-row {
+    padding-right: 148px;
+    padding-left: 148px;
+  }
+
+  .wdaas-col-2 {
+    height: 300px;
+  }
+}
+
+@media (max-width: 1366px) and (min-width: 1281px) {
   .container-fluid.section-three {
     height: auto !important;
   }
@@ -741,6 +764,16 @@ p {
 
   .wdaas-col-2 {
     height: 300px;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+  .wdaas-row {
+    padding-right: 68px;
+    padding-left: 68px;
+  }
+  .wdaas-col-2 {
+    height: 330px;
   }
 }
 
