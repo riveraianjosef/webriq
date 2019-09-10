@@ -12,7 +12,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/IanJosef/Documents/Ian_Files/Repo/exercise/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"WebriQ Blog","short_name":"WebriQ","start_url":"/","background_color":"#663399","theme_color":"#f7f7f7","display":"minimal-ui","icon":"static/gatsby-icon.png"},
+      options: {"plugins":[],"name":"WebriQ Goes Mad","short_name":"WebriQ","start_url":"/","background_color":"#663399","theme_color":"#f7f7f7","display":"minimal-ui","icon":"static/webriq.ico"},
     },{
       plugin: require('/Users/IanJosef/Documents/Ian_Files/Repo/exercise/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
