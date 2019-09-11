@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `WebriQ Goes Mad`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `WebriQ Services`,
+    author: `Webriq Goes Mad`,
+    description: `WebriQ goes Mad designs and develops websites That Engage, Build Trust, and Work!`,
+    siteUrl: `https://webriq.com`,
     social: {
-      twitter: `kylemathews`
+      twitter: `WebriQ`
     }
   },
   plugins: [

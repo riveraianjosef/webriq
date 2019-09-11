@@ -2,25 +2,17 @@ import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
-import MySwiper from "../components/Swiper";
-import SampleForm from "../components/Form";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 // images
 import automation from "../img/automation.svg";
 import branding from "../img/branding.svg";
 import design from "../img/design.svg";
-import dividerBlue from "../img/divider-blue.svg";
 import dividerOrange from "../img/divider-orange.svg";
 import dividerWhiteTop from "../img/divider-white-top.svg";
-import laneMitchell from "../img/lane-mitchelle.png";
-import pair from "../img/pair.svg";
 import questions from "../img/questions.svg";
 import technology from "../img/technology.svg";
 import logo from "../img/webriq-logo.png";
-import zenith from "../img/zenith-chiro.png";
-import atfBg from "../img/atf-bg.svg";
 import blueCheck from "../img/checked-blue.png";
 
 class IndexPage extends React.Component {
@@ -34,7 +26,7 @@ class IndexPage extends React.Component {
 
         <div class="container-fluid section-one">
           <div class="container atf">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#" rel="noopener noreferrer">
               <img
                 class="img-fluid float-left"
                 src={logo}
@@ -49,12 +41,13 @@ class IndexPage extends React.Component {
                     Don’t Get Mad, Go Mad With WebriQ Goes Mad
                   </h1>
 
-                  <h1 class="section-one-h1-2"></h1>
+                  <h1 class="section-one-h1-2" rel="noopener noreferrer"></h1>
                   <a
                     class="btn btn-primary cta"
                     role="button"
                     href="https://calendly.com/alex-belding/go-mad"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Schedule A Consult
                   </a>
@@ -264,6 +257,7 @@ class IndexPage extends React.Component {
                 role="button"
                 href="https://calendly.com/alex-belding/go-mad"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Schedule A Consult
               </a>
@@ -298,6 +292,7 @@ class IndexPage extends React.Component {
                   role="button"
                   href="https://zenithchiroco.com"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visit Website
                 </a>
@@ -321,6 +316,7 @@ class IndexPage extends React.Component {
                   role="button"
                   href="https://lanemitchelljewelers.com"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Visit Website
                 </a>
@@ -335,19 +331,35 @@ class IndexPage extends React.Component {
             <div class="container">
               <p class="my-4">
                 All rights reserved! WebriQ Pte Ltd{" "}
-                <a href="https://webriq.com/terms" target="_blank">
+                <a
+                  href="https://webriq.com/terms"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Terms of Use
                 </a>{" "}
                 |{" "}
-                <a href="https://webriq.com/privacy" target="_blank">
+                <a
+                  href="https://webriq.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Provicy Policy
                 </a>{" "}
                 |{" "}
-                <a href="https://webriq.com/gdpr" target="_blank">
+                <a
+                  href="https://webriq.com/gdpr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   About GDPR
                 </a>{" "}
                 |{" "}
-                <a href="https://webriq.com/cookies" target="_blank">
+                <a
+                  href="https://webriq.com/cookies"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Cookies
                 </a>
               </p>
